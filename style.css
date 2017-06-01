@@ -1,0 +1,145 @@
+@font-face {
+  font-family: League Spartan;
+  src: url('fonts/LeagueSpartan-Bold.otf');
+}
+
+
+html, body { 
+	height: 100%; 
+	padding: 0; 
+	margin: 0; 
+}
+
+a { 
+	color: inherit; 
+} 
+	a:hover, a:visited, a:link, a:active {
+	  text-decoration: none;
+	}
+
+div { 
+	width: 33.33%; 
+	height: 33.33%; 
+	float: left; 
+	display: flex;
+	flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+	font-family: League Spartan; 
+	color: white;
+	font-size: 17px;
+	text-decoration: none;
+
+}
+	div:hover {
+	 	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 10px solid rgba(255, 195, 63, 1);
+	}
+
+#div1 { 
+	background: rgba(2, 199, 251, 1);
+    
+}
+	#div1:hover {
+		color: rgba(255, 195, 63, 1);  
+	  background: rgba(68, 68, 68, 1); 
+	}
+
+#div2 { 
+	background: rgba(86, 196, 202, 1); 
+}
+	#div2:hover {
+		color: rgba(255, 195, 63, 1);  
+	  background: rgba(68, 68, 68, 1); 
+	}
+
+
+#div3 { 
+	background: #00e676; 
+}
+	#div3:hover {
+		color: rgba(255, 195, 63, 1);  
+	  background: rgba(68, 68, 68, 1);
+	}
+
+
+#div4 { 
+	background: #fff176; 
+}
+	#div4:hover {
+		color: rgba(255, 195, 63, 1);  
+	  background: rgba(68, 68, 68, 1);
+	}
+
+#div5 { 
+	background: rgba(68, 68, 68, 1); 
+	color: rgba(255, 195, 63, 1);
+}
+/*	#div5:hover {
+		background-image: #6DB3F2 url("images/A.png")
+		background-repeat: no-repeat;
+	}
+*/
+#div6 { 
+	background: #00e5ff; 
+}
+	#div6:hover {
+		color: rgba(255, 195, 63, 1);  
+	  background: rgba(68, 68, 68, 1);
+	}
+
+#div7 { 
+	background: rgba(254, 77, 103, 1); 
+}
+	#div7:hover {
+		color: rgba(255, 195, 63, 1);  
+	  background: rgba(68, 68, 68, 1);
+	}
+
+#div8 { 
+	background: rgba(147, 112, 183, 1); 
+}
+	#div8:hover {
+		color: rgba(255, 195, 63, 1);  
+	  background: rgba(68, 68, 68, 1);
+	}
+
+#div9 { 
+	background: #ffb74d; 
+}
+	#div9:hover {
+		color: rgba(255, 195, 63, 1);  
+	  background: rgba(68, 68, 68, 1);
+	}
+
+.hoverable .hover {
+	display: none;
+}
+
+.hoverable:hover .normal {
+	display: none;
+}
+
+.hoverable:hover .hover {
+	font-family: 'Josefin Sans', sans-serif;
+	margin-left: 50px;
+	margin-right: 50px;
+	/*margin-top: -50px;*/
+	/*font-size: 19px;*/
+	display:flex;
+	text-align: justify;
+  -moz-text-align-last: center;
+  text-align-last: center;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.tech {
+	font-weight: bold;
+	font-size: 15px;
+}
