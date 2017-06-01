@@ -39,8 +39,12 @@ div {
 	}
 
 #div1 { 
-	background: rgba(2, 199, 251, 1);
-    
+	background-image: url("images/1.png");
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+		/*background-repeat: no-repeat;*/  
 }
 	#div1:hover {
 		color: rgba(255, 195, 63, 1);  
@@ -48,7 +52,11 @@ div {
 	}
 
 #div2 { 
-	background: rgba(86, 196, 202, 1); 
+	background-image: url("images/2.png");
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 	#div2:hover {
 		color: rgba(255, 195, 63, 1);  
@@ -57,7 +65,11 @@ div {
 
 
 #div3 { 
-	background: #00e676; 
+	background-image: url("images/3.png");
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
 }
 	#div3:hover {
 		color: rgba(255, 195, 63, 1);  
@@ -66,7 +78,11 @@ div {
 
 
 #div4 { 
-	background: #fff176; 
+	background-image: url("images/4.png");
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
 }
 	#div4:hover {
 		color: rgba(255, 195, 63, 1);  
@@ -83,7 +99,11 @@ div {
 	}
 */
 #div6 { 
-	background: #00e5ff; 
+	background-image: url("images/6.png");
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
 }
 	#div6:hover {
 		color: rgba(255, 195, 63, 1);  
@@ -91,7 +111,11 @@ div {
 	}
 
 #div7 { 
-	background: rgba(254, 77, 103, 1); 
+	background-image: url("images/7.png");
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
 }
 	#div7:hover {
 		color: rgba(255, 195, 63, 1);  
@@ -99,7 +123,11 @@ div {
 	}
 
 #div8 { 
-	background: rgba(147, 112, 183, 1); 
+	background-image: url("images/8.png");
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
 }
 	#div8:hover {
 		color: rgba(255, 195, 63, 1);  
@@ -107,7 +135,11 @@ div {
 	}
 
 #div9 { 
-	background: #ffb74d; 
+	background-image: url("images/9.png");
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
 }
 	#div9:hover {
 		color: rgba(255, 195, 63, 1);  
